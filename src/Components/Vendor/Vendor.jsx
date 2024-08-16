@@ -51,16 +51,22 @@ const Vendor = () => {
   );
 
   return (
-    <div>
+    <div className="display" >
       <h2>Excel Data Table</h2>
-      {/* Search input field */}
-      <input
+      {/* Search input field */
+    
+      }
+
+
+<input  
         type="text"
         placeholder="Search..."
         value={searchQuery}
         onChange={handleSearchChange}
         style={{ marginBottom: "10px", padding: "5px" }}
       />
+
+     
       <table border="1">
         <thead>
           <tr>

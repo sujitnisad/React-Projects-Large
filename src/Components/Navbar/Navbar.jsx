@@ -6,6 +6,7 @@ const linkStyle = {
 };
 const Navbar = () => {
   return (
+    
     <nav className="navbar">
       <h2 className="logo">MassMutual</h2>
       <ul>
@@ -30,7 +31,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <h2 className="name">Investment</h2>
     </nav>
+    
   );
 };
 

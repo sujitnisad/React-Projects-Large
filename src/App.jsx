@@ -8,13 +8,16 @@ import Log from "./Components/Log/Log";
 function App() {
   return (
     <div className="container">
+      
       <Navbar />
+      
       <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/Vendor" element={<Vendor />} />
         <Route path="/Queries" element={<Queries />} />
         <Route path="/Log" element={<Log />} />
       </Routes>
+      
     </div>
   );
 }
