@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <h2 className="name">Investment</h2>
+      <h2 className="name">Investment Prod</h2>
     </nav>
     
   );
