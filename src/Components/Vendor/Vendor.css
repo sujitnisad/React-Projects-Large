@@ -1,9 +1,15 @@
-
-.display{
-  padding: 40px;
-  padding-top: 120px;
- 
+.display {
+  /* padding-top: 20px; */
+  margin-bottom: 80px;
 }
-div{
+div {
   text-align: center;
+}
+.heading {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  color: rgb(0, 46, 107);
+}
+.table-adj {
+  margin: 20px;
 }
